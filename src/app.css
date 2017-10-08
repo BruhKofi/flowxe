@@ -1,0 +1,161 @@
+body {
+    background: #fcfcfc;
+    color: #5b5b5c;
+    font-family: monospace;
+}
+
+.page-section {
+    margin-bottom: 70px;
+}
+
+h1.section-title {
+    font-weight: normal;
+}
+
+.results {
+    padding-top: 50px;
+}
+
+.app {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 750px;
+    margin: auto;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #ebeced;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 40px 100px;
+    margin: auto;
+}
+
+.form {
+    padding: 20px 100px;
+    margin: auto;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.push-bottom {
+    margin-bottom: 50px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.form-label {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    padding-top: 15px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border-style: none;
+    outline-style: none;
+}
+
+.blue {
+    background: #5751fa;
+}
+
+.blue:hover {
+    background: #716bff;
+}
+
+.blue:active {
+    background: #3e38e1;
+}
+
+.transparent {
+    background: transparent;
+}
+
+input[type='text'],
+textarea {
+    border: 1px solid #ebeced;
+    border-radius: 1px;
+    width: 100%;
+    resize: none;
+    margin: 8px 0px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.rule-list {
+    background: #ffffff;
+    border: 1px solid #ebeced;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rule-item {
+    background: #ffffff;
+    border: 1px solid #ebeced;
+    padding: 10px 20px;
+    font-size: 1.8em;
+    position: relative;
+    height: 28px;
+}
+
+.list-button {
+    position: absolute;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 1em;
+    font-family: monospace;
+    color: gray;
+    outline-style: none;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+.result-item {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.success {
+    color: #57c48f;
+}
+
+.error {
+    color: #f2717a;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #b0b0b2;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #b0b0b2;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #b0b0b2;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #b0b0b2;
+}

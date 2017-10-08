@@ -1,0 +1,53 @@
+.body {
+    background: #fcfcfc;
+    color: #5b5b5c;
+    font-family: monospace;
+    padding-top: 50px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #ebeced;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 20px 100px;
+    margin: auto;
+}
+
+.header {
+    font-weight: normal;
+}
+
+.flowengine {
+    padding: 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 20px 100px;
+    margin: auto;
+    width: 200px;
+    resize: none;
+}
+
+.form-group {
+    display: table;
+    width: 100%;
+}
+
+.form-group>label,
+.form-group>input {
+    display: table-cell;
+    width: 200px;
+    height: 70%;
+    vertical-align: top;
+}
+
+.form-group>input {
+    width: 100%;
+}
+
+.form-group>textarea {
+    width: 100%;
+}

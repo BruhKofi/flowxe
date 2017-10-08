@@ -1,0 +1,32 @@
+.body {
+    background: #fcfcfc;
+    color: #5b5b5c;
+    font-family: monospace;
+    padding-top: 50px;
+}
+
+.header {
+    font-weight: normal;
+}
+
+.flowengine {
+    padding: 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: table;
+    width: 100%;
+}
+
+.form-group>label,
+.form-group>input {
+    display: table-cell;
+    width: 200px;
+    height: 70%;
+}
+
+.form-group>input {
+    width: 100%;
+}
